@@ -1,0 +1,24 @@
+.footer{
+  height: 240px;
+  background-color: #093A4B;
+  
+}
+
+.productPart{
+  background: url("../../assets/globeLogo.png");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.aboutWenigro>h3{
+color: white;
+font-size: 1.5rem;
+font-weight: 500;
+line-height: 160%;
+}
+.aboutWenigro>p{
+color: #FFF;
+font-size: 1rem;
+font-weight: 500;
+line-height: 160%;
+}

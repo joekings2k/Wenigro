@@ -1,0 +1,238 @@
+.wenigroLtd {
+  background-color: #093a4b;
+}
+.wenigroLtdcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.wenigroLtdcontent > * {
+  margin: 10px;
+}
+.wenigroLtdcontent > h2 {
+  color: #fff;
+  text-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+.wenigroLtdcontent > p {
+  color: #fff;
+  font-size: 1rem;
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+.LearnBtn {
+  color: #fff;
+  background-color: #5dbe72;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+.aboutWenigroContent > h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 160%;
+}
+.aboutWenigroContent > * {
+  margin-bottom: 25px;
+}
+.aboutWenigroContent > p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 160%;
+  width: 21.8rem;
+}
+.wenPowerContainer {
+  padding: 1rem;
+}
+.wenPowerImg {
+  border-radius: 15px;
+  background: url("../../assets/power.png");
+  width: 40.75rem;
+  height: 25.0625rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.powerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.powerContent {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 2.125rem;
+}
+.powerContent > h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 160%;
+}
+.powerContent > p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 160%;
+}
+
+.wenFarmsImg {
+  border-radius: 15px;
+  background: url("../../assets/farms.png");
+  width: 40.75rem;
+  height: 25.0625rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wenigroRevoContainer {
+  background-image: linear-gradient(
+      to right,
+      rgba(9, 58, 75, 0.95),
+      rgba(9, 58, 75, 0.9)
+    ),
+    url("../../assets/solarHat.jpg");
+  /* background-color: rgba(9, 58, 75, 0.90); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 20rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.wenigroRevoContent {
+  margin-top: 4.2rem;
+}
+.wenigroRevoContent > * {
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+.frameImage {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+.frameImage > * {
+  width: 26.3125rem;
+  height: 25.83144rem;
+  margin-left: 2rem;
+}
+.image11 {
+  background: url("../../assets/image11.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image12 {
+  background: url("../../assets/image12.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image13 {
+  background: url("../../assets/image13.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.exampletest {
+ 
+  font-weight: 700;
+  line-height: 0%;
+  position: absolute;
+  color: white;
+  font-size: 4.5rem;
+  -webkit-text-stroke: 1px rgb(252, 252, 252, 0.3);
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  left: 0;
+  top: 7.5rem;
+}
+
+/* mobilestyle */
+.powerContentM {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.925rem;
+  max-width: 380px;
+}
+.powerContentM > h3 {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 160%;
+;
+}
+.powerContentM > p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 160%;
+ text-align: center;
+}
+.wenPowerImgM {
+  border-radius: 15px;
+  background: url("../../assets/power.png");
+  width: 100%;
+  height: 20.0625rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wenPowerContainerM {
+  padding: 1rem;
+  width: 100%;
+  height: auto;
+}
+.wenFarmsImgM {
+  border-radius: 15px;
+  background: url("../../assets/farms.png");
+  width: 100%;
+  height: 20.0625rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.frameImageM {
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  padding: 3rem;
+}
+.frameImageM > * {
+  /* width: 100%;
+  height: 25.83144rem;
+  margin-left: 2rem; */
+}
+.image11M {
+  background: url("../../assets/image11.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:25rem;
+}
+.image12M {
+  background: url("../../assets/image12.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:25rem;
+}
+.image13M {
+  background: url("../../assets/image13.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:25rem;
+}

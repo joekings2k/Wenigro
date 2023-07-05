@@ -1,0 +1,16 @@
+.navfarms {
+  display: flex;
+  border: 2px solid #093a4b;
+  border-radius: 1.5rem;
+  padding: 0.775rem 1.85rem;
+  width: 10.5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #093a4b;
+  
+}
+.navItem{
+  text-decoration: none;
+  list-style: none;
+}
