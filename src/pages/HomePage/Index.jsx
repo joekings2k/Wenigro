@@ -23,16 +23,61 @@ export const Home = () => {
       {isNotMobileScreens ? (
         <div className="Content" style={{ backgroundColor: "#F3F4F6" }}>
           <section className="wenigroLtd flex">
-            <div className="w-1/2 ">
-              <div>
-                <img
-                  src={eclipse}
-                  style={{ marginLeft: "400px", marginTop: "70px" }}
-                />
-              </div>
+            <div className="w-1/2 relative">
+              <img
+                src={eclipse}
+                style={{
+                  position: "absolute",
+                  top: 50,
+                  left: 350,
+                  width: "4rem",
+                  height: "4rem",
+                }}
+              />
+              <img
+                src={group79}
+                style={{
+                  position: "absolute",
+                  top: 100,
+                  left: 550,
+                  width: "4rem",
+                  height: "4rem",
+                }}
+              />
+              <img
+                src={eclipse6}
+                style={{
+                  position: "absolute",
+                  top: 300,
+                  left: 480,
+                  width: "4rem",
+                  height: "4rem",
+                }}
+              />
+              <img
+                src={group177}
+                style={{
+                  position: "absolute",
+                  bottom: 0,
+                  left: 300,
+                  width: "8rem",
+                  height: "8rem",
+                }}
+              />
+              <img
+                src={group26}
+                style={{
+                  position: "absolute",
+                  bottom: 100,
+                  right: 0,
+                  width: "8rem",
+                  height: "8rem",
+                }}
+              />
+
               <div
                 className="wenigroLtdcontent ml-9"
-                style={{ width: "280px", marginTop: "-40px" }}
+                style={{ width: "520px" }}
               >
                 <h2>WENIGRO LIMITED</h2>
                 <p>Empowering Nigeria’s Agrotech and Energy Sector</p>
@@ -43,13 +88,13 @@ export const Home = () => {
                 />
               </div>
             </div>
-            <div className="w-1/2 ">
+            <div className="w-1/2 mt-32 ">
               <div className="">
                 <img
                   src={man}
                   style={{
                     width: "30rem",
-                    height: "40rem",
+                    height: "37rem",
                     marginLeft: "110px",
                   }}
                 />
@@ -59,7 +104,7 @@ export const Home = () => {
 
           <section className="Section2 flex" style={{ marginTop: "45px" }}>
             <div className="w-1/2">
-              <img src={bulbTree} />
+              <img src={bulbTree} width={"100%"} />
             </div>
             <div
               className="w-1/2 flex flex-col text-white aboutWenigroContent items-center"

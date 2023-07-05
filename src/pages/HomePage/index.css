@@ -1,3 +1,9 @@
+p{
+  font-family: "RegularNext";
+}
+h3{
+  font-family: "BoldNext";
+}
 .wenigroLtd {
   background-color: #093a4b;
 }
@@ -13,16 +19,16 @@
 .wenigroLtdcontent > h2 {
   color: #fff;
   text-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
-  text-align: center;
+  font-family:"BoldNext";
 }
 .wenigroLtdcontent > p {
   color: #fff;
-  font-size: 1rem;
-  font-family: Avenir Next LT Pro;
+  font-size: 1.8rem;
+  font-family: "RegularNext";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 100;
   line-height: 160%;
 }
 .LearnBtn {
@@ -30,6 +36,7 @@
   background-color: #5dbe72;
   text-align: center;
   padding: 0.5rem 0;
+  width: 300px;
 }
 .aboutWenigroContent > h3 {
   font-size: 1.5rem;
@@ -41,7 +48,7 @@
 }
 .aboutWenigroContent > p {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 100;
   line-height: 160%;
   width: 21.8rem;
 }
@@ -76,7 +83,7 @@
 }
 .powerContent > p {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 100;
   line-height: 160%;
 }
 
@@ -174,7 +181,7 @@
 }
 .powerContentM > p {
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 100;
   line-height: 160%;
  text-align: center;
 }

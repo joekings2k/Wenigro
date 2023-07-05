@@ -12,4 +12,12 @@ body,
 .App {
   height: 100%;
 }
+@font-face{
+  font-family:"BoldNext";
+  src: local("BoldNext"),url("./fonts/AvenirNextLTPro-Bold.otf") format("truetype");
+}
+@font-face{
+  font-family:"RegularNext";
+  src: local("RegularNext"),url("./fonts/AvenirNextLTPro-Regular.otf") format("truetype");
+}
 
